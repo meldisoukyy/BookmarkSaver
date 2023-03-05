@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 500px;
+  padding: 10px;
+}
+
+#bookmark-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+#bookmark-form_title,
+#bookmark-form_url {
+  width: 100%;
+  padding: 5px;
+}
+
+#bookmark-form_submit {
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
