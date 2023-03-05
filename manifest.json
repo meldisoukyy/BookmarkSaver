@@ -2,8 +2,20 @@
   "manifest_version": 2,
   "name": "Bookmark Saver",
   "version": "1.0.0",
-  "description": "Save your bookmarks with title and URL",
+  "description": "A simple Firefox add-on to save and view bookmarks.",
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  },
   "permissions": [
     "storage"
-  ]
+  ],
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png"
+    },
+    "default_title": "Bookmark Saver",
+    "default_popup": "popup.html"
+  }
 }
