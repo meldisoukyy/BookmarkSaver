@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bookmark Saver</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Create a new bookmark -->
+  <form id="bookmark-form">
+    <input type="text" placeholder="Title" id="bookmark-form_title" name="bookmark-title" required>
+    <input type="url" placeholder="URL" id="bookmark-form_url" name="bookmark-url" required>
+    <button type="submit" id="bookmark-form_submit">Save</button>
+  </form>
+
+  <!-- Bookmark List -->
+  <div id="bookmark-list"></div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
