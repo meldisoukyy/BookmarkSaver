@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Saver",
+  "version": "1.0.0",
+  "description": "Save your bookmarks with title and URL",
+  "permissions": [
+    "storage"
+  ]
+}
