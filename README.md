@@ -7,7 +7,11 @@
 Bookmark Saver is a Firefox add-on that allows users to create bookmarks by providing a title and URL, list all bookmarks that they have created, and delete any of them.
 
 ## Installation
-To install Bookmark Saver, follow these steps:
+To install Book Saver from Firefox Browser Add-ons:
+1. Open the [project page](https://addons.mozilla.org/en-US/firefox/addon/bookmark-saver/) on Firefox Browser Add-ons.
+2. Click on "Add to Firefox" button.
+
+Alternatively, to install Bookmark Saver from your localhost, follow these steps:
 
 1. Download the latest version of the add-on from the [release page](https://github.com/meldisoukyy/BookmarkSaver/releases).
 2. Open Firefox and go to `about:addons`.
